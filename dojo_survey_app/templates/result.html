@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'result.css' %}">   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submitted Info</title>
+</head>
+<body>
+    <div id="wrapper">
+    <h1>****- Submitted User Information -****</h1>
+    <p>Name: {{result.name}} </p>
+    <p>Location: {{result.location}} </p>
+    <p>Favorite Language: {{result.language}} </p>
+    <p>Comment: {{result.commment}} </p>
+    </div>
+</body>
+</html>
